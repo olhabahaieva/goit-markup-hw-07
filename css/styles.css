@@ -23,6 +23,14 @@ body {
   padding: 0 15px 0 15px;
 }
 
+/*Responsive - 480*/
+
+@media screen and (min-width: 480px) {
+  .container{
+    width: 480px;
+  } 
+}
+
 .section {
   padding: 120px 0 120px 0;
 }
@@ -81,7 +89,7 @@ footer {
 }
 
 .navigation {
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 
@@ -229,7 +237,7 @@ footer a {
 
 /*Benefits*/
 .benefits {
-  display: flex;
+  /* display: flex; */
   padding-left: 0;
   gap: 24px;
 }
@@ -262,7 +270,7 @@ footer a {
 
 /*What we are doing*/
 .services {
-  display: flex;
+  /* display: flex; */
   padding-left: 0;
 }
 
@@ -292,7 +300,7 @@ footer a {
 /*Hero*/
 
 .hero {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   padding: 192px 0 192px 0;
   color: var(--primary-background-color);
@@ -354,7 +362,7 @@ footer a {
 }
 
 .our-team-list {
-  display: flex;
+  /* display: flex; */
   padding-left: 0;
 }
 
@@ -404,7 +412,7 @@ footer p {
 }
 
 .footer-wrap {
-  display: flex;
+  /* display: flex; */
   padding-right: 0;
   justify-content: space-between;
 }
@@ -527,7 +535,7 @@ footer p {
 }
 
 .customers-logos {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
   justify-content: center;
   padding-left: 0px;
