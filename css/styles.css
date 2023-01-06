@@ -1115,4 +1115,11 @@ footer p {
     .active a::after {
       bottom: -136%;
     }
+
+    .portfolio-menu{
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 64px;
+    }
 }
