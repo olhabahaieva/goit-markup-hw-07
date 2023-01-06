@@ -1122,4 +1122,8 @@ footer p {
       gap: 24px;
       margin-top: 64px;
     }
+
+    .portfolio-card {
+      width: calc((100% - 24px) / 2);
+    }
 }
