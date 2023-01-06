@@ -586,19 +586,27 @@ footer p {
   text-align: center;
 }
 
-.customers-logos {
-  /* display: flex; */
-  gap: 24px;
-  justify-content: center;
-  padding-left: 0px;
+@media screen and (min-width: 480px){
+  .customers-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    row-gap: 72px;
+    justify-content: center;
+    padding-left: 0px;
+  }
 }
 
-.customer-logo-element {
-  display: flex;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  padding: 16px 32px;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+@media screen and (min-width: 480px){
+  .customer-logo-element {
+    display: inline-block;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    padding: 16px 32px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
 }
 
 .customer-logo-element:hover,
