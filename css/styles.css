@@ -82,9 +82,28 @@ footer {
 
 /*Studio page begins*/
 
+/*Mobile menu hover style*/
+
+.menu-container{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary-background-color);
+  padding: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--title-text-color);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+
 /*Header*/
 
 .header {
+  position: relative;
   padding-top: 24px;
   padding-bottom: 24px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -107,9 +126,10 @@ footer {
 
 .menu-button .icon-cross {
   display: none;
+  
 }
 
-.menu-button.is-open .icon-cross{
+.menu-button.is-open .icon-cross {
   display: block;
 }
 
