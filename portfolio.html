@@ -22,15 +22,66 @@
 
     <header class="header">
       <div class="container site-navigation">
+      
         <nav class="navigation">
-          <a href="" class="logo"><span class="blue-logo">Web</span>Studio</a>
+          <a href=""
+            class="logo"><span class="blue-logo">Web</span>Studio</a
+          >
+          <button type="button" class="menu-button is-open" data-menu-button
+          aria-expanded="false"
+          >
+            <svg class="button-cross-icon" width="32" height="22"
+            aria-label="Mobile menu switcher">
+              <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
+              <use class="icon-cross" href="./images/icons.svg#icon-modal-cross"></use>
+            </svg>
+          </button>
+          <div class="menu-container is-open" data-menu>
+              <ul class="menu-container-items list">
+                
+                <li><a class="menu-container-pages" href="./index.html">Studio</a></li>
+                <li><a class="menu-container-pages" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="menu-container-pages" href="">Contacts</a></li>
+              </ul>
+              <a class="menu-container-phone" href="href=tel:+11(000)111-11-11">+11(000)111-11-11</a>
+              <a class="menu-container-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <ul class="menu-social-icons list">
+                <li class="social-icon">
+                  <a href="" class="social-icons-link">
+                    <svg class="social-icon-illustration" width="16" height="16">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+
+                <li class="social-icon">
+                  <a href="" class="social-icons-link">
+                    <svg class="social-icon-illustration" width="16" height="16">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+                </li>
+
+                <li class="social-icon">
+                  <a href="" class="social-icons-link">
+                    <svg class="social-icon-illustration" width="16" height="16">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+                </li>
+
+                <li class="social-icon">
+                  <a href="" class="social-icons-link">
+                    <svg class="social-icon-illustration" width="16" height="16">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+                </li>
+
+              </ul>
+            </div>
           <ul class="list main-navigation">
-            <li class="main-navigation-link">
-              <a href="./index.html">Studio</a>
-            </li>
-            <li class="main-navigation-link active">
-              <a href="">Portfolio</a>
-            </li>
+            <li class="main-navigation-link active"><a href="">Studio</a></li>
+            <li class="main-navigation-link"><a href="./portfolio.html">Portfolio</a></li>
             <li class="main-navigation-link"><a href="">Contacts</a></li>
           </ul>
         </nav>
@@ -38,7 +89,8 @@
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
         </div>
-      </div>
+        
+    </div>
     </header>
     <!--header ends-->
 
@@ -73,6 +125,8 @@
                       height="300"
                       src="./images/banking-app-interface-concept.jpeg"
                       alt="banking app interface concept"
+
+                      sizes="(min-width: 480px) 396px, 100vw"
                     />
                   </div>
                   <p class="portfolio-image-text-over">
@@ -392,5 +446,7 @@
     </footer>
 
     <!--Footer ends-->
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

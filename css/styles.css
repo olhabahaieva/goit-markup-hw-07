@@ -102,6 +102,7 @@ footer {
 
 .menu-container.is-open{
   display: block;
+  z-index: 1
 }
 
 .menu-container-items{
@@ -1090,4 +1091,8 @@ footer p {
     gap: 16px;
     margin-left: 16px;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+
 }
