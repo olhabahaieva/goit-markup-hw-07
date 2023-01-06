@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  min-width: 320px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
@@ -97,11 +97,37 @@ footer {
 }
 
 .navigation {
-  /* display: flex; */
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+
+}
+
+/*Mobile Menu*/
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross{
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
 }
 
 /*Buttons*/
+
+.menu-button{
+  display: inline-flex;
+  background-color: transparent;
+  border: none;
+  stroke: var(--title-text-color);
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
 
 .button {
   font-family: Roboto, sans-serif;
