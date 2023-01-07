@@ -1100,7 +1100,9 @@ footer p {
       display: none;
     }
 
-   
+    .main-navigation{
+      display: flex;
+    }
 
     .site-navigation{
       display: flex;
