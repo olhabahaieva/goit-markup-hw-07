@@ -23,24 +23,47 @@ body {
   padding: 0 15px 0 15px;
 }
 
-/*Responsive styles*/
+/*General Responsive styles*/
 
 @media screen and (min-width: 480px) {
+
+  .container{
+    width: 480px;
+  }
+
   .section{
     padding: 96px 0 96px 0;
-  } 
+  }
+
+  .section-smaller-top{
+    padding: 48px 0 96px 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .container{
     width: 768px;
   } 
+
+  .section{
+    padding: 96px 0 96px 0;
+  }
+
+  .section-smaller-top {
+    padding: 64px 0 96px 0;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
   .container{
     width: 1200px;
   } 
+
+  .section{
+    padding: 120px 0 120px 0;
+  }
+
 }
 
 .section-no-padding {
@@ -1092,6 +1115,7 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
+
     .menu-button{
       display: none;
     }
@@ -1174,4 +1198,5 @@ footer p {
     .logo-footer, .footer-social-heading{
       text-align: left;
     }
+
 }
