@@ -1225,7 +1225,7 @@ footer p {
 /*Responsive design: Media - 1200px*/
 
 @media screen and (min-width: 1200px) {
-  
+
   .contacts {  
     flex-direction: row;
   }
@@ -1236,5 +1236,9 @@ footer p {
     width: 100%;
     gap: 24px;
     margin-left: 16px;
+  }
+
+  .portfolio-card {
+    width: calc((100% - 48px) / 3);
   }
 }
