@@ -1142,6 +1142,18 @@ footer p {
       bottom: -136%;
     }
 
+    .benefits {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+
+    .benefits li {
+      width: 356px;
+      padding-left: 0;
+      margin: 0 auto;
+    }
+
     .portfolio-menu{
       display: flex;
       gap: 24px;
