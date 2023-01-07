@@ -1131,11 +1131,6 @@ footer p {
       width: 264px;
     }
 
-    .footer-wrap{
-      display: flex;
-      flex-direction: row;
-    }
-
     .input-subscribe {
       padding: 0;
       padding-left: 16px;
@@ -1145,5 +1140,35 @@ footer p {
       background-color: transparent;
       border: 1px solid rgba(255, 255, 255, 0.3);
       border-radius: 4px;
+    }
+
+    .footer-wrap{
+      padding-left: 108px;
+    }
+
+    .footer-wrap-row{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 72px;
+      margin-right: auto;
+      gap: 24px;
+    }
+
+    .footer-form-elements{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .footer-form-subscribe{
+      margin-right: auto;
+    }
+
+    .form-btn-submit{
+      margin-left: 24px;
+    }
+
+    .form-btn-submit::before{
+      top: 48%;
+      left: 92%;
     }
 }
