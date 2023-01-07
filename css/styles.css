@@ -963,12 +963,10 @@ footer p {
 
   .main-navigation{
     display: none;
-    visibility: hidden;
   }
 
   .contacts{
     display: none;
-    visibility: hidden;
   }
 
   .section-no-top-padding{
@@ -1101,6 +1099,8 @@ footer p {
     .menu-container.is-open{
       display: none;
     }
+
+   
 
     .site-navigation{
       display: flex;
