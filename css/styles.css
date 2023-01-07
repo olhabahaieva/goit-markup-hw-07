@@ -977,28 +977,9 @@ footer p {
   letter-spacing: 0.02em;
 }
 
-/*Responsive design: Media - up to 480px*/
-
-@media screen and (max-width: 479px){
-  .main-navigation {
-    display: none;
-  }
-  
-  .contacts {
-    display: none;
-  }
-  
-  .portfolio-menu {
-    flex-wrap: wrap;
-    max-width: 263px;
-    gap: 16px;
-    margin-left: 16px;
-  }
-}
-
 /*Responsive design: Media - from 480px*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px){
   .main-navigation {
     display: none;
   }
