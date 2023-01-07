@@ -1289,4 +1289,7 @@ footer p {
     display: flex;
   }
 
+  .customers-logos {
+    flex-wrap: nowrap;
+  }
 }
