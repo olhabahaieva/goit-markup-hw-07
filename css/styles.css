@@ -1154,6 +1154,17 @@ footer p {
       margin: 0 auto;
     }
 
+    .our-team-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+    }
+
+    .our-team-member{
+      margin: 0;
+    }
+
     .portfolio-menu{
       display: flex;
       gap: 24px;
