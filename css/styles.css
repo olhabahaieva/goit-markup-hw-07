@@ -1230,6 +1230,10 @@ footer p {
     flex-direction: row;
   }
 
+  .benefit-icons {
+    display: flex;
+  }
+
   .portfolio-menu {
     display: flex;
     justify-content: center;
