@@ -1225,7 +1225,10 @@ footer p {
 /*Responsive design: Media - 1200px*/
 
 @media screen and (min-width: 1200px) {
-
+  .active a::after {
+    bottom: -100%;
+  }
+  
   .contacts {  
     flex-direction: row;
   }
