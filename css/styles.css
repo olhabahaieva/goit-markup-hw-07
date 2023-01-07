@@ -1118,9 +1118,7 @@ footer p {
 
     .portfolio-menu{
       display: flex;
-      justify-content: center;
       gap: 24px;
-      margin-top: 64px;
     }
 
     .portfolio-card {
@@ -1149,7 +1147,6 @@ footer p {
     .footer-wrap-row{
       display: flex;
       flex-direction: row;
-      margin-bottom: 72px;
       margin-right: auto;
       gap: 24px;
     }
@@ -1170,5 +1167,9 @@ footer p {
     .form-btn-submit::before{
       top: 48%;
       left: 92%;
+    }
+
+    .logo-footer, .footer-social-heading{
+      text-align: left;
     }
 }
