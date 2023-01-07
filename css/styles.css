@@ -1241,4 +1241,26 @@ footer p {
   .portfolio-card {
     width: calc((100% - 48px) / 3);
   }
+
+  .footer-wrap {
+    flex-direction: row;
+    padding-left: 0;
+  }
+
+  .footer-wrap-row{
+    gap: 120px;
+  }
+
+  footer p{
+    margin-bottom: 0;
+  }
+
+  .footer-text{
+    margin-bottom: 0;;
+  }
+
+  .footer-form-subscribe{
+    align-self: flex-start;
+    margin-right: 0;;
+  }
 }
