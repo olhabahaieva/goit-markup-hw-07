@@ -1280,4 +1280,13 @@ footer p {
     align-self: flex-start;
     margin-right: 0;;
   }
+
+  .section-no-top-padding {
+    display: flex;
+  }
+
+  .services{
+    display: flex;
+  }
+
 }
