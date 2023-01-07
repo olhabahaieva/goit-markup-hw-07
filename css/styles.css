@@ -64,6 +64,10 @@ body {
     padding: 120px 0 120px 0;
   }
 
+  .section-smaller-top {
+    padding: 96px 0 96px 0;
+  }
+
 }
 
 .section-no-padding {
@@ -965,10 +969,6 @@ footer p {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-card {
-  /* width: calc((100% - 48px) / 3); */
-}
-
 .portfolio-card:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   cursor: pointer;
@@ -1228,4 +1228,16 @@ footer p {
       text-align: left;
     }
 
+}
+
+/*Responsive design: Media - 1200px*/
+
+@media screen and (min-width: 1200px) {
+    .portfolio-menu{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      gap: 24px;
+      margin-left: 16px;
+    }
 }
