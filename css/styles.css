@@ -1122,8 +1122,10 @@ footer p {
     margin-left: 16px;
   }
 
-  
 }
+
+
+/*Responsive design: Media - from 768px*/
 
 @media screen and (min-width: 768px) {
 
