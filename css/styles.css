@@ -1165,6 +1165,12 @@ footer p {
       margin: 0;
     }
 
+    .customers-logos {
+      display: flex;
+      gap: 24px;
+      margin: 0 auto;
+    }
+
     .portfolio-menu{
       display: flex;
       gap: 24px;
