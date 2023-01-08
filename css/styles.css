@@ -455,8 +455,8 @@ footer a {
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 480px),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+  screen and (min-resolution: 192dpi) and (max-width: 480px),
+  screen and (min-resolution: 2dppx) and (max-width: 480px) {
   .hero {
     background-image: linear-gradient(
         to right,
@@ -468,8 +468,8 @@ footer a {
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 480px),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+  screen and (min-resolution: 192dpi) and (min-width: 480px),
+  screen and (min-resolution: 2dppx) and (min-width: 480px) {
   .hero {
     background-image: linear-gradient(
         to right,
@@ -481,8 +481,8 @@ footer a {
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
         to right,
@@ -494,8 +494,8 @@ footer a {
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(
         to right,
@@ -1066,12 +1066,6 @@ footer p {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-bcg-mobile.jpeg);
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-width: 480px;
-    margin: 0 auto;
   }
 
   .main-navigation {
@@ -1213,12 +1207,6 @@ footer p {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-bcg-tablet.jpeg);
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-width: 768px;
-    margin: 0 auto;
   }
 
   .menu-button {
