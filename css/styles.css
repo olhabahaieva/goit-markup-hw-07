@@ -1121,9 +1121,9 @@ footer p {
 
   .portfolio-menu {
     flex-wrap: wrap;
-    width: 263px;
+    width: 320px;
     gap: 16px;
-    margin-left: 16px;
+    
   }
 
 }
