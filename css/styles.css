@@ -1206,6 +1206,11 @@ footer p {
     justify-content: center;
     gap: 24px;
     width: 100%;
+    margin-bottom: 64px;
+  }
+
+  .portfolio-items{
+    row-gap: 72px;
   }
 
   .portfolio-card {
