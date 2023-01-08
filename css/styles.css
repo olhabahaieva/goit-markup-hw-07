@@ -1190,7 +1190,9 @@ footer p {
 
   .portfolio-menu {
     display: flex;
+    justify-content: center;
     gap: 24px;
+    width: 100%;
   }
 
   .portfolio-card {
