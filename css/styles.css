@@ -1328,7 +1328,8 @@ footer p {
 
   .footer-form-subscribe{
     align-self: flex-start;
-    margin-right: 0;;
+    margin-right: 0;
+    margin-left: 80px;
   }
 
   .section-no-top-padding {
