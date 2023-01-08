@@ -1228,7 +1228,7 @@ footer p {
   }
 
   .footer-wrap {
-    padding-left: 108px;
+    padding: 0 93px 0 93px;
   }
 
   .footer-wrap-row {
