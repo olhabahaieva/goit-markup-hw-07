@@ -125,7 +125,7 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: var(--primary-background-color);
   padding: 40px;
@@ -204,7 +204,6 @@ footer {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .site-navigation {
-  /* display: flex; */
   align-items: center;
   justify-content: space-between;
 }
@@ -389,7 +388,6 @@ footer a {
 
 /*Benefits*/
 .benefits {
-  /* display: flex; */
   padding-left: 0;
   gap: 24px;
 }
@@ -405,7 +403,6 @@ footer a {
 
 /*What we are doing*/
 .services {
-  /* display: flex; */
   padding-left: 0;
 }
 
@@ -507,7 +504,6 @@ screen and (min-resolution: 2dppx){
 }
 
 .our-team-list {
-  /* display: flex; */
   padding-left: 0;
 }
 
@@ -549,7 +545,6 @@ screen and (min-resolution: 2dppx){
 
 /*Footer*/
 footer {
-  /* display: flex; */
   align-items: center;
 }
 .footer-wrap {
@@ -938,13 +933,8 @@ footer p {
 .portfolio-menu {
   display: inline-flex;
   padding-left: 0;
-  /* justify-content: center; */
-  margin-bottom: 72px;
+  margin-bottom: 48px;
 }
-
-/* .portfolio-menu li {
-  margin-right: 24px;
-} */
 
 /*Portfolio works*/
 .portfolio-items {
@@ -1145,9 +1135,6 @@ footer p {
     
   }
 
-  
-  
-
 }
 
 
@@ -1208,6 +1195,10 @@ footer p {
     display: flex;
     gap: 24px;
     margin: 0 auto;
+  }
+
+  .customer-logo-element{
+    padding: 16px 32px;
   }
 
   .portfolio-menu {
