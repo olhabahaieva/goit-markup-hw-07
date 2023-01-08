@@ -441,17 +441,17 @@ footer a {
   color: var(--primary-background-color);
   text-align: center;
   background-image: linear-gradient(
-        to right,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-bcg-mobile.jpeg);
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-width: 480px;
-    margin: 0 auto;
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bcg-mobile.jpeg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 480px;
+  margin: 0 auto;
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 480px),
@@ -1040,10 +1040,25 @@ footer p {
   letter-spacing: 0.02em;
 }
 
+/*Responsive design: Media - up to 480px*/
+
+@media screen and (max-width: 480px) {
+  .main-navigation {
+    display: none;
+  }
+
+  .contacts {
+    display: none;
+  }
+
+  .section-no-top-padding {
+    display: none;
+  }
+}
+
 /*Responsive design: Media - from 480px*/
 
 @media screen and (min-width: 480px) {
-
   .hero {
     background-image: linear-gradient(
         to right,
@@ -1058,7 +1073,6 @@ footer p {
     min-width: 480px;
     margin: 0 auto;
   }
-
 
   .main-navigation {
     display: none;
@@ -1192,7 +1206,6 @@ footer p {
 /*Responsive design: Media - from 768px*/
 
 @media screen and (min-width: 768px) {
-
   .hero {
     background-image: linear-gradient(
         to right,
@@ -1336,14 +1349,13 @@ footer p {
 /*Responsive design: Media - 1200px*/
 
 @media screen and (min-width: 1200px) {
-
   .hero {
     background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office.jpeg);
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpeg);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
