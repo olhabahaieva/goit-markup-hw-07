@@ -209,15 +209,19 @@ footer {
 /*Mobile Menu*/
 
 .menu-button .icon-cross {
+  display: block;
+}
+
+.menu-button .icon-menu{
   display: none;
 }
 
 .menu-button.is-open .icon-cross {
-  display: block;
+  display: none;
 }
 
 .menu-button.is-open .icon-menu {
-  display: none;
+  display: block;
 }
 
 /*Buttons*/
