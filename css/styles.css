@@ -436,23 +436,10 @@ footer a {
 /*Hero*/
 
 .hero {
-  /* display: flex; */
   align-items: center;
   padding: 192px 0 192px 0;
   color: var(--primary-background-color);
   text-align: center;
-  background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office.jpeg);
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  max-width: 1600px;
-  margin: 0 auto;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -1005,6 +992,23 @@ footer p {
 /*Responsive design: Media - from 480px*/
 
 @media screen and (min-width: 480px) {
+
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bcg-mobile.jpeg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 480px;
+    margin: 0 auto;
+  }
+
+
   .main-navigation {
     display: none;
   }
@@ -1137,6 +1141,22 @@ footer p {
 /*Responsive design: Media - from 768px*/
 
 @media screen and (min-width: 768px) {
+
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bcg-tablet.jpeg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 768px;
+    margin: 0 auto;
+  }
+
   .menu-button {
     display: none;
   }
@@ -1265,6 +1285,25 @@ footer p {
 /*Responsive design: Media - 1200px*/
 
 @media screen and (min-width: 1200px) {
+
+
+  
+
+  .hero {
+    background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpeg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
   .active a::after {
     bottom: -100%;
   }
