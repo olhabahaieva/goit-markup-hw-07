@@ -1113,7 +1113,7 @@ footer p {
   }
 
   .benefits li:last-child{
-    margin-bottom: none;
+    margin-bottom: 0;
   }
 
   
