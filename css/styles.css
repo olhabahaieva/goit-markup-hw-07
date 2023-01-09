@@ -130,6 +130,12 @@ footer {
   padding: 40px;
 }
 
+.menu-container-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .menu-button {
   cursor: pointer;
   z-index: 2;
@@ -137,6 +143,7 @@ footer {
 
 .menu-container.is-open {
   display: block;
+  position: fixed;
   z-index: 1;
 }
 
