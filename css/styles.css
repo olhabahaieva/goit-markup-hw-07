@@ -1116,6 +1116,24 @@ footer p {
     margin-bottom: 0;
   }
 
+  .our-team {
+    display: flex;
+  }
+
+  .our-team-member {
+    width: 260px;
+    background-color: var(--primary-background-color);
+    margin-right: 24px;
+    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
+    border-radius: 0px 0px 4px 4px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+  }
+
+  .our-team-member li:last-child{
+    margin-bottom: 0;
+  }
+
   
 }
 
