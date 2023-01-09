@@ -1146,6 +1146,12 @@ footer p {
     margin-bottom: 0;
   }
 
+  .logo-footer {
+    display: block;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
   .footer-wrap {
     display: flex;
     flex-direction: column;
@@ -1169,7 +1175,9 @@ footer p {
     margin-bottom: 72px;
   }
 
+
   .input-subscribe {
+    width: 280px;
     padding: 0;
     padding-left: 16px;
     margin: 0;
