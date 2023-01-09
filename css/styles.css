@@ -34,6 +34,13 @@ body {
 
 /*General Responsive styles*/
 
+@media screen and (max-width: 479px){
+  .container {
+    max-width: 479px;
+  }
+
+}
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -457,13 +464,12 @@ footer a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-width: 480px;
   margin: 0 auto;
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 480px),
-  screen and (min-resolution: 192dpi) and (max-width: 480px),
-  screen and (min-resolution: 2dppx) and (max-width: 480px) {
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 479px),
+  screen and (min-resolution: 192dpi) and (max-width: 479px),
+  screen and (min-resolution: 2dppx) and (max-width: 479px) {
   .hero {
     background-image: linear-gradient(
         to right,
@@ -1047,14 +1053,37 @@ footer p {
   letter-spacing: 0.02em;
 }
 
-/*Responsive design: Media - up to 480px*/
+/*Responsive design: Media - up to 479px*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px){
+  .container {
+    max-width: 479px;
+  }
+
+  .hero {
+    max-width: 479px;
+  }
+
+}
+
+
+/*Responsive design: Media - up to 479px*/
+
+@media screen and (max-width: 479px) {
   .main-navigation {
     display: none;
   }
 
   .contacts {
+    display: none;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  .benefit-icons {
     display: none;
   }
 
