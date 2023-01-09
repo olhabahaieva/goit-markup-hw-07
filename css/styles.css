@@ -1209,9 +1209,14 @@ footer p {
       url(../images/hero-bcg-tablet.jpeg);
   }
 
+  .hero {
+    padding: 112px 0;
+  }
+
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
+    margin-bottom: 40px;
   }
 
   .menu-button {
@@ -1348,6 +1353,7 @@ footer p {
 
 @media screen and (min-width: 1200px) {
   .hero {
+    padding: 188px 0;
     background-image: linear-gradient(
         to right,
         rgba(46, 47, 66, 0.7),
@@ -1360,6 +1366,10 @@ footer p {
     background-position: center;
     max-width: 1600px;
     margin: 0 auto;
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
   }
 
   .active a::after {
