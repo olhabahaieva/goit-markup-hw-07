@@ -1047,11 +1047,7 @@ footer p {
   cursor: pointer;
 }
 
-.portfolio-card p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
 
 
 /*Responsive design: Media - up to 479px*/
@@ -1195,6 +1191,21 @@ footer p {
   .form-btn-submit::before {
     top: 78%;
     left: 64%;
+  }
+
+  .portfolio-items {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
+  .portfolio-menu {
+    flex-wrap: wrap;
+    width: 320px;
+    gap: 16px;
   }
 
 }
@@ -1390,7 +1401,7 @@ footer p {
   }
 
   .active a::after {
-    bottom: -136%;
+    bottom: -125%;
   }
 
   .benefits {
