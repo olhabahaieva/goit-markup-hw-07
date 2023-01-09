@@ -1145,6 +1145,47 @@ footer p {
   .our-team-member:last-child {
     margin-bottom: 0;
   }
+
+  .footer-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-social-heading {
+    text-align: center;
+  }
+
+  .footer-social {
+    margin-bottom: 72px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+  }
+
+  .input-subscribe {
+    padding: 0;
+    padding-left: 16px;
+    margin: 0;
+    margin-bottom: 16px;
+    height: 40px;
+    width: 396px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+  }
+
+  .form-btn-submit::before {
+    top: 78%;
+    left: 64%;
+  }
+
 }
 
 /*Responsive design: Media - from 480px*/
