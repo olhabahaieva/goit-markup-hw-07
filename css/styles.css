@@ -1209,6 +1209,11 @@ footer p {
       url(../images/hero-bcg-tablet.jpeg);
   }
 
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
   .menu-button {
     display: none;
   }
@@ -1355,11 +1360,6 @@ footer p {
     background-position: center;
     max-width: 1600px;
     margin: 0 auto;
-  }
-
-  .hero-title {
-    font-size: 56px;
-    line-height: 1.07;
   }
 
   .active a::after {
