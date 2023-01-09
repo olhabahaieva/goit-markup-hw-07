@@ -1070,6 +1070,15 @@ footer p {
 /*Responsive design: Media - up to 479px*/
 
 @media screen and (max-width: 479px) {
+
+  .section {
+    padding: 96px 0 96px 0;
+  }
+
+  .section-no-top-padding {
+    display: none;
+  }
+
   .main-navigation {
     display: none;
   }
@@ -1087,9 +1096,27 @@ footer p {
     display: none;
   }
 
-  .section-no-top-padding {
-    display: none;
+  .benefits h3 {
+    font-size: 36px;
+    line-height: 0.9;
+    text-align: center;
+    margin-bottom: 8px;
   }
+
+  .benefits li {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 396px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+  }
+
+  .benefits li:last-child{
+    margin-bottom: none;
+  }
+
+  
 }
 
 /*Responsive design: Media - from 480px*/
