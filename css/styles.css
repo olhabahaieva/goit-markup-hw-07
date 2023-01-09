@@ -1053,26 +1053,21 @@ footer p {
   letter-spacing: 0.02em;
 }
 
-/*Responsive design: Media - up to 479px*/
-
-@media screen and (max-width: 479px){
-  .container {
-    max-width: 479px;
-  }
-
-  .hero {
-    max-width: 479px;
-  }
-
-}
-
 
 /*Responsive design: Media - up to 479px*/
 
 @media screen and (max-width: 479px) {
 
+  .container {
+    max-width: 479px;
+  }
+
   .section {
     padding: 96px 0 96px 0;
+  }
+
+  .hero {
+    max-width: 479px;
   }
 
   .section-no-top-padding {
@@ -1130,11 +1125,26 @@ footer p {
     margin-bottom: 72px;
   }
 
-  .our-team-member li:last-child{
-    margin-bottom: 0;
+
+  .customer-logo-element {
+    display: inline-block;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    padding: 16px 40px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  
+  .customers-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    row-gap: 72px;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  .our-team-member:last-child {
+    margin-bottom: 0;
+  }
 }
 
 /*Responsive design: Media - from 480px*/
