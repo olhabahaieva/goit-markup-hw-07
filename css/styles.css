@@ -1054,6 +1054,10 @@ footer p {
   }
 
   .section {
+    padding: 96px 0 96px 0;
+  }
+
+  .section-smaller-space {
     padding: 48px 0 96px 0;
   }
 
