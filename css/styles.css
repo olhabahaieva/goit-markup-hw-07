@@ -1239,6 +1239,8 @@ footer p {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-bcg-mobile.jpeg);
+
+    padding: 96px 0;
   }
 
   .main-navigation {
