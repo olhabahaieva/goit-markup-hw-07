@@ -131,7 +131,7 @@ footer {
   top: 0;
   left: 0;
   background-color: var(--primary-background-color);
-  padding: 40px;
+ 
   width: 100vw;
   height: 100vh;
   
@@ -148,12 +148,15 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  padding: 40px;
 }
 
 .menu-button {
   cursor: pointer;
   z-index: 2;
-
+  position: absolute;
+  top: 24px;
+  right: 16px
 }
 
 .menu-container.is-open {
