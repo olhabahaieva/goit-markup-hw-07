@@ -127,15 +127,16 @@ footer {
 
 .menu-container {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: var(--primary-background-color);
- 
   width: 100vw;
   height: 100vh;
   
 }
+
+
 
 .menu-container-small{
   display: flex;
@@ -213,7 +214,7 @@ footer {
 
 .menu-social-icons {
   display: flex;
-  justify-content: space-between;
+  gap: 56px;
   padding-left: 0;
   margin-top: 48px;
 }
@@ -230,12 +231,14 @@ footer {
 .site-navigation {
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 /*Mobile Menu*/
