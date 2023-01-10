@@ -1608,6 +1608,10 @@ footer p {
     margin-bottom: 0;
   }
 
+  .footer-social {
+    margin-bottom: 0;
+  }
+
   .footer-form-subscribe {
     align-self: flex-start;
     margin-right: 0;
