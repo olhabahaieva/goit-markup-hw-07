@@ -130,21 +130,26 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
   background-color: var(--primary-background-color);
   padding: 40px;
+  width: 100vw;
+  height: 100vh;
+  
 }
+
+
 
 .menu-container-flex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100vh;
 }
 
 .menu-button {
   cursor: pointer;
   z-index: 2;
+
 }
 
 .menu-container.is-open {
@@ -159,7 +164,7 @@ footer {
 }
 
 .menu-container-items li:last-child {
-  margin-bottom: 284px;
+  
 }
 
 .menu-container-pages {
