@@ -1209,7 +1209,11 @@ footer p {
   }
   
   .portfolio-card {
-    width: 100%;
+    max-width: 100%;
+  }
+
+  .portfolio-image{
+   max-width: 100%;
   }
 
 }
