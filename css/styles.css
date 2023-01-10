@@ -1204,8 +1204,15 @@ footer p {
 
   .portfolio-menu {
     flex-wrap: wrap;
-    width: 320px;
+    max-width: 320px;
     gap: 16px;
+  }
+
+  
+
+  .portfolio-card {
+    
+    width: 100%;
   }
 
 }
