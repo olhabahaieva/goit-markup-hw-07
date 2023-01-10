@@ -34,11 +34,10 @@ body {
 
 /*General Responsive styles*/
 
-@media screen and (max-width: 479px){
+@media screen and (max-width: 479px) {
   .container {
     max-width: 479px;
   }
-
 }
 
 @media screen and (min-width: 480px) {
@@ -137,7 +136,7 @@ footer {
   padding: 40px;
 }
 
-.menu-container-flex{
+.menu-container-flex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1047,13 +1046,9 @@ footer p {
   cursor: pointer;
 }
 
-
-
-
 /*Responsive design: Media - up to 479px*/
 
 @media screen and (max-width: 479px) {
-
   .container {
     max-width: 479px;
   }
@@ -1103,7 +1098,7 @@ footer p {
     margin-bottom: 72px;
   }
 
-  .benefits li:last-child{
+  .benefits li:last-child {
     margin-bottom: 0;
   }
 
@@ -1115,12 +1110,12 @@ footer p {
     width: 260px;
     background-color: var(--primary-background-color);
     margin-right: 24px;
-    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
+    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%),
+      0px 2px 1px rgb(46 47 66 / 8%);
     border-radius: 0px 0px 4px 4px;
     margin: 0 auto;
     margin-bottom: 72px;
   }
-
 
   .customer-logo-element {
     display: inline-block;
@@ -1171,7 +1166,6 @@ footer p {
     margin-bottom: 72px;
   }
 
-
   .input-subscribe {
     width: 280px;
     padding: 0;
@@ -1183,8 +1177,8 @@ footer p {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
   }
-  
-  .form-btn-submit{
+
+  .form-btn-submit {
     margin-left: 0;
   }
 
@@ -1200,22 +1194,21 @@ footer p {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-}
+  }
 
   .portfolio-menu {
     flex-wrap: wrap;
     max-width: 320px;
     gap: 16px;
   }
-  
+
   .portfolio-card {
     max-width: 100%;
   }
 
-  .portfolio-image{
-   max-width: 100%;
+  .portfolio-image {
+    max-width: 100%;
   }
-
 }
 
 /*Responsive design: Media - from 480px*/
