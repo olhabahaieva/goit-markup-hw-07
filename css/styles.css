@@ -1213,6 +1213,9 @@ footer p {
   .portfolio-image {
     max-width: 100%;
   }
+
+  .portfolio-image-text-over {
+    line-height: 1.5;
 }
 
 /*Responsive design: Media - from 480px*/
