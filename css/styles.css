@@ -137,7 +137,11 @@ footer {
   
 }
 
-
+.menu-container-small{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .menu-container-flex {
   display: flex;
