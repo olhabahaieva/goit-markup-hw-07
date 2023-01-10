@@ -1025,7 +1025,7 @@ footer p {
   padding: 40px 32px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.5x;
+  line-height: 1.5;
   color: var(--primary-background-color);
   letter-spacing: 0.02em;
   transform: translateY(200%);
