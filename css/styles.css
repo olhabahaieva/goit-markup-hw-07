@@ -1120,7 +1120,7 @@ footer p {
   }
 
   .our-team-member {
-    width: 260px;
+    width: 264px;
     background-color: var(--primary-background-color);
     margin-right: 24px;
     box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%),
@@ -1268,7 +1268,7 @@ footer p {
   }
 
   .our-team-member {
-    width: 260px;
+    width: 264px;
     background-color: var(--primary-background-color);
     margin-right: 24px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -1441,6 +1441,7 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 64px;
     justify-content: center;
   }
 
